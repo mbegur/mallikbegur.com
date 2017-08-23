@@ -3375,6 +3375,29 @@
 
 /* Banner */
 
+.about-mallik {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	text-align: left;
+	/*align-self: center;*/
+
+}
+
+.about-mallik img {
+	border-radius: 50%;
+	margin: 2em;
+}
+
+.about-mallik p {
+	width: 50%;
+	margin-top: 5.5em;
+}
+
+/*.about-mallik div {
+	justify-content: center;
+}*/
 	#banner {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3812,3 +3835,27 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.logo {
+				-moz-transition: opacity 2s ease, -moz-transform 1s ease;
+				-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
+				-ms-transition: opacity 2s ease, -ms-transform 1s ease;
+				transition: opacity 2s ease, transform 1s ease;
+				-moz-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+				margin: 0 0 1.3em 0;
+			}
+
+			.logo .icon {
+							border-radius: 100%;
+							border: solid 2px rgba(255, 255, 255, 0.125);
+							cursor: default;
+							display: inline-block;
+							font-size: 2em;
+							height: 2.25em;
+							line-height: 2.25em;
+							text-align: center;
+							width: 2.25em;
