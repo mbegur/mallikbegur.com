@@ -24,14 +24,14 @@
 			$header = $('#header');
 
 		// Disable animations/transitions until the page has loaded.
-			// $body.addClass('is-loading');
+			$body.addClass('is-loading');
 
-			// $window.on('load', function() {
-			// 	$body.removeClass('is-loading');
-			// 	window.setTimeout(function() {
-			//
-			// 	}, 100);
-			// });
+			$window.on('load', function() {
+				$body.removeClass('is-loading');
+				window.setTimeout(function() {
+
+				}, 100);
+			});
 
 		// Mobile?
 			if (skel.vars.mobile)
